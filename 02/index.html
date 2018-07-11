@@ -116,6 +116,10 @@
 
 <script>
 $("article:nth-child(5) ul").children('li').last().children('a').text("Pinterest").attr("href", "http://www.pinterest.com");
+
+$("a").on("click", function(event){
+	event.preventDefault();;
+});
 	
 </script>
 </body>
